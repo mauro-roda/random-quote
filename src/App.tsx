@@ -26,12 +26,6 @@ function App() {
     }
   }
 
-  // async function updateQuote(): Promise<ResponseData[]> {
-  //   return fetch('https://api.quotable.io/random').then(res => res.json()).then(res => {
-  //     return res as ResponseData[]
-  //   })
-  // }
-
   useEffect(() => {
     updateQuote();
   }, []);
